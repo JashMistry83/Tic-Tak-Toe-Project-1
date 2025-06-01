@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1 align="center">TIC TAK TOE</h1>
+
+        <div class="position">
+
+            <div class="main-box">
+                <input type="text" name="" id="1" class="normal-box" onclick="inputHandler(1)">
+                <input type="text" name="" id="2" class="normal-box" onclick="inputHandler(2)">
+                <input type="text" name="" id="3" class="normal-box" onclick="inputHandler(3)">
+                <input type="text" name="" id="4" class="normal-box" onclick="inputHandler(4)">
+                <input type="text" name="" id="5" class="normal-box" onclick="inputHandler(5)">
+                <input type="text" name="" id="6" class="normal-box" onclick="inputHandler(6)">
+                <input type="text" name="" id="7" class="normal-box" onclick="inputHandler(7)">
+                <input type="text" name="" id="8" class="normal-box" onclick="inputHandler(8)">
+                <input type="text" name="" id="9" class="normal-box" onclick="inputHandler(9)">
+
+            </div>
+            <div class="score">
+                <h1>ScoreCard</h1>
+                <h3 id="Owin">O-score :- 0</h3>
+                <hr>
+                <h3 id="Xwin">X-score :- 0</h3>
+                <hr>
+                <h3 id="draw">Drawed :- 0</h3>
+            </div>
+        </div>
+
+
+        <div class="info">
+            <button type="button" class="" id="btn" onclick="refresh()">New game</button>
+            <button type="button" class="" id="btn" onclick="reload()">Play again</button>
+            <h2 id="h2turn">Start the tic tak toe game...</h2>
+
+        </div>
+    </div>
+
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
