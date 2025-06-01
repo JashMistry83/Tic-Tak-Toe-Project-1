@@ -1,1 +1,1 @@
-# Tic-Tak-Toe-Project-1
+# Project-1.Tic-Tak-Toe
